@@ -4,13 +4,13 @@ import "../node_modules/materialize-css/dist/js/materialize.min.js";
 
 import "./App.css";
 
+import NavBar from "./components/navbar";
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Hannah's Portfolio</h1>
-        </header>
+      <div>
+        <NavBar />
       </div>
     );
   }
