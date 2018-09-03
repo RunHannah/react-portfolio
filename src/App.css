@@ -2,31 +2,38 @@
 .app {
   color: grey;
   font-family: "Quicksand", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ccdbaaf7bb352c17aaf967cf09c1285c&auto=format&fit=crop&w=668&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* NavBar */
 .navbar {
-  height: 100px;
-  background: #0f0c29; /* fallback for old browsers */
+  height: 110px;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #0f0c29,
-    #302b63,
-    #24243e
+    #434343,
+    #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #0f0c29,
-    #302b63,
-    #24243e
+    #434343,
+    #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-text-name {
+  font-display: bold;
 }
 
 /* LandingPage */
 .landing-grid {
-  /* text-align: auto; */
   padding: 10px;
   display: block;
+  padding: 15px;
+  padding-top: 25px;
 }
 
 .landing-intro {
@@ -34,15 +41,38 @@
   font-size: 3em;
 }
 
+.social-links-intro i {
+  color: grey;
+  font-size: 2em;
+  padding-right: 10px;
+  float: left;
+}
+
+.social-links-intro {
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
 /* Projects */
+.projects {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.project-list {
+  font-family: "Poller One", cursive;
+  font-size: 3em;
+  text-align: center;
+}
 
 .card-image {
   width: 100%;
-  height: 320px;
+  height: 100%;
 }
 
 .card .card-content {
-  padding: 15%;
+  padding: 7%;
   padding-bottom: 5%;
 }
 
@@ -57,6 +87,11 @@
 /* Skills */
 .skills {
   text-align: center;
+  padding-bottom: 200px;
+}
+
+.skills-logos {
+  display: block;
 }
 
 .tech-skills {
@@ -72,8 +107,8 @@
 }
 
 .social-links {
-  /* display: flex; */
   justify-content: space-between;
   width: 100%;
   margin: auto;
+  padding-bottom: 5px;
 }

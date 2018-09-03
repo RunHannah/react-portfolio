@@ -4,7 +4,7 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="nav-wrapper container">
+        <div className="nav-wrapper">
           <a className="nav-text-name" href="#">
             Hannah Lee
           </a>

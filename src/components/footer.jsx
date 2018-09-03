@@ -5,19 +5,34 @@ class Footer extends Component {
     return (
       <div className="center-align social-links">
         {/* LinkedIn */}
-        <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+        <a
+          href="https://linkedin.com/in/hannahlee1"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i className="fa fa-linkedin-square" aria-hidden="true" />
         </a>
 
         {/* Github */}
-        <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+        <a
+          href="https://github.com/runhannah"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i className="fa fa-github-square" aria-hidden="true" />
         </a>
 
         {/* Twitter */}
-        <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+        <a
+          href="https://twitter.com/tweetbyhannah"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i className="fa fa-twitter-square" aria-hidden="true" />
         </a>
+        <div>
+          <p>This website was built with React and Materialize CSS.</p>
+        </div>
       </div>
     );
   }

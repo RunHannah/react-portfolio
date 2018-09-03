@@ -5,7 +5,7 @@ export default [
   {
     name: "National Park Service Website Clone",
     info:
-      "This is a clone of the National Park Service website. Built with Angular, Firebase, and National Park Service API",
+      "This is a clone of the National Park Service website.  Built with Angular, Firebase, and National Park Service API.",
     img: NPS,
     alt: "NPS",
     githubLink: "https://github.com/RunHannah/nps",
@@ -14,7 +14,7 @@ export default [
   {
     name: "PDXbnb",
     info:
-      "Data visualization group project displaying average rental rates in Portland neighborhoods using Airbnb data; built with Angular, Firebase, and chart.js.",
+      "Data visualization group project displaying average rental rates in Portland neighborhoods using Airbnb data; built with Angular, Firebase, and Chart.js.",
     img: PDXBNB,
     alt: "PDXbnb",
     githubLink: "https://github.com/RunHannah/PDXbnb",
