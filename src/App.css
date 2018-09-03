@@ -1,7 +1,9 @@
+/* Application Wide */
 .app {
   color: grey;
 }
 
+/* NavBar */
 .navbar {
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -16,4 +18,18 @@
     #302b63,
     #24243e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Footer */
+.social-links i {
+  color: grey;
+  font-size: 5em;
+  padding: 100px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }

@@ -32,34 +32,6 @@ class LandingPage extends Component {
 
           <p>MongoDB | Express | React | NodeJS | JavaScript</p>
           <p>Ruby on Rails | PostgreSQL</p>
-          <div className="social-links">
-            {/* LinkedIn */}
-            <a
-              href="https://google.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-linkedin-square" aria-hidden="true" />
-            </a>
-
-            {/* Github */}
-            <a
-              href="https://google.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-github-square" aria-hidden="true" />
-            </a>
-
-            {/* Twitter */}
-            <a
-              href="https://google.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-twitter-square" aria-hidden="true" />
-            </a>
-          </div>
         </div>
       </div>
     );
