@@ -1,6 +1,7 @@
 /* Application Wide */
 .app {
   color: grey;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* NavBar */
@@ -28,6 +29,11 @@
   display: block;
 }
 
+.landing-intro {
+  font-family: "Poller One", cursive;
+  font-size: 3em;
+}
+
 /* Projects */
 
 .card-image {
@@ -53,6 +59,11 @@
   text-align: center;
 }
 
+.tech-skills {
+  font-family: "Poller One", cursive;
+  font-size: 3em;
+}
+
 /* Footer */
 .social-links i {
   color: grey;
@@ -61,8 +72,8 @@
 }
 
 .social-links {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }

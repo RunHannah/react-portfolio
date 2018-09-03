@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className="social-links">
+      <div className="center-align social-links">
         {/* LinkedIn */}
         <a href="https://google.com" rel="noopener noreferrer" target="_blank">
           <i className="fa fa-linkedin-square" aria-hidden="true" />
