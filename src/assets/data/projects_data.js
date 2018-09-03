@@ -1,5 +1,6 @@
 import NPS from "../images/projects/nps.png";
 import PDXBNB from "../images/projects/pdxbnb.png";
+import Coffee from "../images/projects/coffee.png";
 
 export default [
   {
@@ -19,5 +20,14 @@ export default [
     alt: "PDXbnb",
     githubLink: "https://github.com/RunHannah/PDXbnb",
     liveLink: "https://pdxbnb-76f3c.firebaseapp.com/"
+  },
+  {
+    name: "Epic-Coffee",
+    info:
+      "Application demonstrating CRUD functionality. Built with Ruby on Rails, PostgreSQL, and Faker gem. View, add, update, delete coffee blends and reviews.",
+    img: Coffee,
+    alt: "coffee",
+    githubLink: "https://github.com/RunHannah/epic_coffee",
+    liveLink: "https://github.com/RunHannah/epic_coffee"
   }
 ];
