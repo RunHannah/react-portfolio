@@ -6,13 +6,15 @@ import "./App.css";
 
 import NavBar from "./components/navbar";
 import LandingPage from "./components/landing-page";
+import Projects from "./components/projects";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app">
         <NavBar />
         <LandingPage />
+        <Projects />
       </div>
     );
   }

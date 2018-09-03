@@ -1,13 +1,66 @@
 import React, { Component } from "react";
-import Projects from "./projects";
 
 class LandingPage extends Component {
   // state = {  }
   render() {
     return (
-      <div>
-        <h2>Projects</h2>
-        <Projects />
+      <div style={{ width: "100%", margin: "auto" }}>
+        <div className="landing-grid">
+          <p className="landing-intro">
+            Software Developer ready to collaborate and build great products
+          </p>
+          <p>
+            Hi there! I'm an enthusiastic lifelong learner who transitioned from
+            a career in public policy and budget analysis to software
+            development to solve problems through technology. I value curiosity,
+            effective communication, and diversity and inclusion, and seek
+            opportunities to collaborate and create solid products in Portland,
+            OR, Los Angeles, SF Bay Area, or remote!
+          </p>
+          <p>
+            I recently completed a full-time software development program and
+            bring an eye for detail, critical thinking, and perseverance to find
+            the right solution. I remain upbeat under high pressure and changing
+            environments, skilled in juggling competing priorities, and practice
+            strong interpersonal skills.
+          </p>
+          <p>
+            In my free time I attend local meetups, conferences, learn new
+            technologies, and enjoy playing tennis, running, and catching up
+            with friends!
+          </p>
+
+          <p>MongoDB | Express | React | NodeJS | JavaScript</p>
+          <p>Ruby on Rails | PostgreSQL</p>
+          <div className="social-links">
+            {/* LinkedIn */}
+            <a
+              href="https://google.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fa fa-linkedin-square" aria-hidden="true" />
+            </a>
+
+            {/* Github */}
+            <a
+              href="https://google.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fa fa-github-square" aria-hidden="true" />
+            </a>
+
+            {/* Twitter */}
+            <a
+              href="https://google.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fa fa-twitter-square" aria-hidden="true" />
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
