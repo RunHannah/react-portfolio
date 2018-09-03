@@ -10,12 +10,12 @@ class Projects extends Component {
     const projects = this.state.projects;
 
     return (
-      <div className="row">
-        <div className="col s12 m7">
+      <div className="row projects">
+        <div className="col m6 s12 l4">
           {projects.map((project, index) => (
             <div className="card" key={index}>
               <div className="card-image">
-                {/* <img src="images/sample-1.jpg"> */}
+                <img src={project.img} />
               </div>
               <div className="card-content">
                 <span className="card-title">{project.name}</span>

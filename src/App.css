@@ -18,6 +18,29 @@
     #302b63,
     #24243e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+}
+
+/* LandingPage */
+.landing-grid {
+  text-align: auto;
+  width: 80%;
+  /* height: 100%; */
+  padding: 100px;
+}
+
+/* Projects */
+.card-image > img {
+  width: 100%;
+  height: 320px;
+}
+
+.card .card-content {
+  padding: 10%;
+}
+
+.card .card-title {
+  font-weight: bold;
 }
 
 /* Footer */

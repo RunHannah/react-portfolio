@@ -7,15 +7,16 @@ class LandingPage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <div className="landing-grid">
           <p className="landing-intro">
-            Software Developer ready to collaborate and build great products
+            Hi there! I'm Hannah, a Software Developer ready to collaborate and
+            build great products!
           </p>
           <p>
-            Hi there! I'm an enthusiastic lifelong learner who transitioned from
-            a career in public policy and budget analysis to software
-            development to solve problems through technology. I value curiosity,
-            effective communication, and diversity and inclusion, and seek
-            opportunities to collaborate and create solid products in Portland,
-            OR, Los Angeles, SF Bay Area, or remote!
+            I'm an enthusiastic lifelong learner who transitioned from a career
+            in public policy and budget analysis to software development to
+            solve problems through technology. I value curiosity, effective
+            communication, and diversity and inclusion, and seek opportunities
+            to collaborate and create solid products in Portland, OR, Los
+            Angeles, SF Bay Area, or remote!
           </p>
           <p>
             I recently completed a full-time software development program and

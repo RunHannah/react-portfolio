@@ -1,9 +1,12 @@
+import NPS from "../images/nps.png";
+import PDXBNB from "../images/pdxbnb.png";
+
 export default [
   {
     name: "National Park Service Website Clone",
     info:
       "This is a clone of the National Park Service website. Built with Angular, Firebase, and National Park Service API",
-    // img: NPS,
+    img: NPS,
     alt: "NPS",
     githubLink: "https://github.com/RunHannah/nps",
     liveLink: "https://national-park-service-clone.firebaseapp.com/"
@@ -12,7 +15,7 @@ export default [
     name: "PDXbnb",
     info:
       "Data visualization group project displaying average rental rates in Portland neighborhoods using Airbnb data; built with Angular, Firebase, andchart.js.",
-    // img: PDXbnb,
+    img: PDXBNB,
     alt: "PDXbnb",
     githubLink: "https://github.com/RunHannah/PDXbnb",
     liveLink: "https://pdxbnb-76f3c.firebaseapp.com/"
