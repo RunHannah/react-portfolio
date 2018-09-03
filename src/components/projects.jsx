@@ -15,7 +15,7 @@ class Projects extends Component {
         <hr />
         <div className="row">
           {projects.map((project, index) => (
-            <div className="col m6">
+            <div className="col m6" key={index}>
               <div className="card" key={index}>
                 <div className="card-image">
                   <img src={project.img} />

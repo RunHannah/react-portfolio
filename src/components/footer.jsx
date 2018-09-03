@@ -3,7 +3,8 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className="center-align social-links">
+      <div className="center-align social-links footer">
+        <hr />
         {/* LinkedIn */}
         <a
           href="https://linkedin.com/in/hannahlee1"

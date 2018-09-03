@@ -6,7 +6,7 @@ class NavBar extends Component {
       <nav className="navbar">
         <div className="nav-wrapper">
           <a className="nav-text-name" href="#">
-            Hannah Lee
+            {/* Hannah Lee */}
           </a>
           <ul className="right hide-on-sm-and-down">
             <li>

@@ -6,10 +6,9 @@ class LandingPage extends Component {
       <div className="landing-grid">
         <div className="row">
           <div className="col s4">
-            <p className="landing-intro">Hi there!</p>
+            <p className="landing-intro">Hannah Lee</p>
             <p>
-              I'm Hannah, a Software Developer ready to collaborate and build
-              great products.
+              Software Developer ready to collaborate and build great products.
             </p>
             <div className="center-align social-links-intro">
               {/* LinkedIn */}
@@ -45,8 +44,8 @@ class LandingPage extends Component {
               I'm an enthusiastic lifelong learner who transitioned from a
               career in public policy and budget analysis to software
               development to solve problems through technology. I value
-              curiosity, effective communication, and building products for both
-              the front-end and back-end of the stack!
+              curiosity, effective communication, and building products and
+              features on both the front and back-end of the stack!
             </p>
             <p>
               I recently completed a full-time software development program and
@@ -56,9 +55,9 @@ class LandingPage extends Component {
               and practice strong interpersonal skills.
             </p>
             <p>
-              In my free time I attend local meetups, conferences, learn new
-              technologies, and enjoy playing tennis, running, and catching up
-              with friends!
+              Becoming a developer has changed how I interact with technology
+              and how I experience my daily life. I'm ready to leverage my
+              skills to help find solutions and improve user experiences.
             </p>
           </div>
         </div>
