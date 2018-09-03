@@ -8,6 +8,7 @@ import NavBar from "./components/navbar";
 import LandingPage from "./components/landing-page";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
+import Skills from "./components/skills";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <NavBar />
         <LandingPage />
         <Projects />
+        <Skills />
         <Footer />
       </div>
     );

@@ -1,5 +1,5 @@
-import NPS from "../images/nps.png";
-import PDXBNB from "../images/pdxbnb.png";
+import NPS from "../images/projects/nps.png";
+import PDXBNB from "../images/projects/pdxbnb.png";
 
 export default [
   {
@@ -14,7 +14,7 @@ export default [
   {
     name: "PDXbnb",
     info:
-      "Data visualization group project displaying average rental rates in Portland neighborhoods using Airbnb data; built with Angular, Firebase, andchart.js.",
+      "Data visualization group project displaying average rental rates in Portland neighborhoods using Airbnb data; built with Angular, Firebase, and chart.js.",
     img: PDXBNB,
     alt: "PDXbnb",
     githubLink: "https://github.com/RunHannah/PDXbnb",

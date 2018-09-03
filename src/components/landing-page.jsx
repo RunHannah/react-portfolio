@@ -4,7 +4,7 @@ class LandingPage extends Component {
   // state = {  }
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div className="container">
         <div className="landing-grid">
           <p className="landing-intro">
             Hi there! I'm Hannah, a Software Developer ready to collaborate and

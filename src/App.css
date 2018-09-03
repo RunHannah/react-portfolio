@@ -5,6 +5,7 @@
 
 /* NavBar */
 .navbar {
+  height: 100px;
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -22,10 +23,8 @@
 
 /* LandingPage */
 .landing-grid {
-  text-align: auto;
-  width: 80%;
-  /* height: 100%; */
-  padding: 100px;
+  /* text-align: auto; */
+  padding: 10px;
   display: block;
 }
 
@@ -46,6 +45,11 @@
 }
 
 .card .card-action {
+  text-align: center;
+}
+
+/* Skills */
+.skills {
   text-align: center;
 }
 
