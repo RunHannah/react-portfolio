@@ -91,14 +91,24 @@
   padding-bottom: 200px;
 }
 
-.skills-logos {
-  display: block;
-}
-
 .tech-skills {
   font-family: "Poller One", cursive;
   font-size: 3em;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 2em;
+  padding-top: 15px;
+}
+
+.wrapper > div {
+  padding: 1em;
+}
+/* .wrapper > div:nth-child(odd) {
+  background: #999999;
+} */
 
 /* Footer */
 

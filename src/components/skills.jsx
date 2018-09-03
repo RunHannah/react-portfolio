@@ -19,60 +19,40 @@ class Skills extends Component {
       <div className="skills container">
         <p className="tech-skills">Technical Skills</p>
         <hr />
-        <div>
-          <div className="row">
-            <div className="skills-logos col s12">
-              <img className="col s2 reactLogo" src={reactLogo} alt="React" />
-              <img
-                className="col s2 nodejsLogo"
-                src={nodejsLogo}
-                alt="Nodejs"
-              />
-              <img
-                className="col s2 expressLogo"
-                src={expressLogo}
-                alt="Express"
-              />
-              <img
-                className="col s2 mongodbLogo"
-                src={mongodbLogo}
-                alt="MongoDB"
-              />
-              <img
-                className="col s2 javascriptLogo"
-                src={javascriptLogo}
-                alt="Javascript"
-              />
-              <img
-                className="col s2 cssHtmlLogo"
-                src={cssHtmlLogo}
-                alt="HTML"
-              />
-              <img className="col s2 rubyLogo" src={rubyLogo} alt="ruby" />
-              <img className="col s2 apiLogo" src={apiLogo} alt="API" />
-              <img
-                className="col s2 vscodeLogo"
-                src={vscodeLogo}
-                alt="vscode"
-              />
-              <img
-                className="col s2 postmanLogo"
-                src={postmanLogo}
-                alt="postman"
-              />
-              <img
-                className="col s2 postgresLogo"
-                src={postgresLogo}
-                alt="postgres"
-              />
-              <img className="col s2 gitLogo" src={gitLogo} alt="git" />
-              <img
-                className="col s2 githubLogo"
-                src={githubLogo}
-                alt="github"
-              />
-            </div>
-          </div>
+        <div className="row wrapper">
+          <img className="col s12 reactLogo" src={reactLogo} alt="React" />
+          <img className="col s12 nodejsLogo" src={nodejsLogo} alt="Nodejs" />
+          <img
+            className="col s12 expressLogo"
+            src={expressLogo}
+            alt="Express"
+          />
+          <img
+            className="col s12 mongodbLogo"
+            src={mongodbLogo}
+            alt="MongoDB"
+          />
+          <img className="col s12 vscodeLogo" src={vscodeLogo} alt="vscode" />
+          <img
+            className="col s12 javascriptLogo"
+            src={javascriptLogo}
+            alt="Javascript"
+          />
+          <img className="col s12 rubyLogo" src={rubyLogo} alt="ruby" />
+          <img className="col s12 apiLogo" src={apiLogo} alt="API" />
+          <img
+            className="col s12 postmanLogo"
+            src={postmanLogo}
+            alt="postman"
+          />
+          <img
+            className="col s12 postgresLogo"
+            src={postgresLogo}
+            alt="postgres"
+          />
+          <img className="col s12 cssHtmlLogo" src={cssHtmlLogo} alt="HTML" />
+          <img className="col s12 gitLogo" src={gitLogo} alt="git" />
+          <img className="col s12 githubLogo" src={githubLogo} alt="github" />
         </div>
       </div>
     );
