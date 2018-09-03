@@ -9,8 +9,8 @@
 
 /* NavBar */
 .navbar {
-  height: 125px;
-  padding: 25px;
+  position: fixed;
+  z-index: 1;
   background: #5d4157; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -30,10 +30,9 @@
 
 /* LandingPage */
 .landing-grid {
-  padding: 10px;
   display: block;
   padding: 15px;
-  padding-top: 25px;
+  padding-top: 100px;
   font-size: 18px;
 }
 

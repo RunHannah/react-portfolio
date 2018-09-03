@@ -5,7 +5,7 @@ class LandingPage extends Component {
     return (
       <div className="landing-grid">
         <div className="row">
-          <div className="col s4">
+          <div className="col s12 m4">
             <p className="landing-intro">Hannah Lee</p>
             <p>
               Software Developer ready to collaborate and build great products.
@@ -39,7 +39,7 @@ class LandingPage extends Component {
               </a>
             </div>
           </div>
-          <div className="col s8">
+          <div className="col s12 m8">
             <p>
               I'm an enthusiastic lifelong learner who transitioned from a
               career in public policy and budget analysis to software
