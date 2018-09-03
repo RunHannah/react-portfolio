@@ -10,9 +10,9 @@ class Projects extends Component {
     const projects = this.state.projects;
 
     return (
-      <div className="row projects">
-        <div className="col m6 s12 l4">
-          {projects.map((project, index) => (
+      <div className="row container">
+        {projects.map((project, index) => (
+          <div className="col m6">
             <div className="card" key={index}>
               <div className="card-image">
                 <img src={project.img} />
@@ -27,8 +27,8 @@ class Projects extends Component {
                 <a href={project.liveLink}>Live Demo</a>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     );
   }
