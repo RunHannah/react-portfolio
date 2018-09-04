@@ -2,6 +2,7 @@
   "name": "react-hannah",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://runhannah.github.io/portfolio",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.2",
@@ -12,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
