@@ -5,13 +5,22 @@ class Footer extends Component {
     return (
       <div className="center-align social-links footer">
         <hr />
+        {/* Resume Google Drive */}
+        <a
+          href="https://drive.google.com/file/d/1mVvRys0HxEZzQ_tXj2ngdpSK8Qwa4HC1/view?usp=sharing"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="fas fa-file-alt" aria-hidden="true" />
+        </a>
+
         {/* LinkedIn */}
         <a
           href="https://linkedin.com/in/hannahlee1"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <i className="fab fa-linkedin" aria-hidden="true" />
         </a>
 
         {/* Github */}
@@ -20,7 +29,7 @@ class Footer extends Component {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <i className="fa fa-github-square" aria-hidden="true" />
+          <i className="fab fa-github" aria-hidden="true" />
         </a>
 
         {/* Twitter */}
@@ -29,7 +38,7 @@ class Footer extends Component {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <i className="fa fa-twitter-square" aria-hidden="true" />
+          <i className="fab fa-twitter" aria-hidden="true" />
         </a>
         <div>
           <p>This website was built with React and Materialize CSS.</p>

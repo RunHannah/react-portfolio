@@ -11,13 +11,21 @@ class LandingPage extends Component {
               Software Developer ready to collaborate and build great products.
             </p>
             <div className="center-align social-links-intro">
+              {/* Resume */}
+              <a
+                href="https://drive.google.com/file/d/1mVvRys0HxEZzQ_tXj2ngdpSK8Qwa4HC1/view?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fas fa-file-alt" aria-hidden="true" />
+              </a>
               {/* LinkedIn */}
               <a
                 href="https://linkedin.com/in/hannahlee1"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                <i className="fab fa-linkedin" aria-hidden="true" />
               </a>
 
               {/* Github */}
@@ -26,7 +34,7 @@ class LandingPage extends Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fa fa-github-square" aria-hidden="true" />
+                <i className="fab fa-github" aria-hidden="true" />
               </a>
 
               {/* Twitter */}
@@ -35,7 +43,7 @@ class LandingPage extends Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fa fa-twitter-square" aria-hidden="true" />
+                <i className="fab fa-twitter" aria-hidden="true" />
               </a>
             </div>
           </div>
@@ -57,7 +65,7 @@ class LandingPage extends Component {
             <p>
               Becoming a developer has changed how I interact with technology
               and how I experience my daily life. I'm ready to leverage my
-              skills to help find solutions and improve user experiences.
+              skills to help find solutions and improve user experiences. I'm actively seeking opportunities in Portland, OR, Los Angeles, or San Francisco!
             </p>
           </div>
         </div>
