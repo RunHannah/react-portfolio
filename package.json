@@ -2,8 +2,9 @@
   "name": "react-hannah",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://runhannah.github.io/portfolio",
+  "homepage": "https://runhannah.github.io/react-portfolio",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
