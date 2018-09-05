@@ -11,7 +11,6 @@ import mongodbLogo from "../assets/images/skills/mongodb-logo.png";
 import expressLogo from "../assets/images/skills/express-logo.png";
 import postgresLogo from "../assets/images/skills/postgres-logo.png";
 import gitLogo from "../assets/images/skills/git-logo.png";
-import githubLogo from "../assets/images/skills/github-logo.png";
 
 class Skills extends Component {
   render() {
@@ -21,22 +20,17 @@ class Skills extends Component {
         <hr />
         <div className="row wrapper">
           <img className="col s12 reactLogo" src={reactLogo} alt="React" />
+          <img
+            className="col s12 javascriptLogo"
+            src={javascriptLogo}
+            alt="Javascript"
+          />
+          <img className="col s12 cssHtmlLogo" src={cssHtmlLogo} alt="HTML" />
           <img className="col s12 nodejsLogo" src={nodejsLogo} alt="Nodejs" />
           <img
             className="col s12 expressLogo"
             src={expressLogo}
             alt="Express"
-          />
-          <img
-            className="col s12 mongodbLogo"
-            src={mongodbLogo}
-            alt="MongoDB"
-          />
-          <img className="col s12 vscodeLogo" src={vscodeLogo} alt="vscode" />
-          <img
-            className="col s12 javascriptLogo"
-            src={javascriptLogo}
-            alt="Javascript"
           />
           <img className="col s12 rubyLogo" src={rubyLogo} alt="ruby" />
           <img className="col s12 apiLogo" src={apiLogo} alt="API" />
@@ -50,9 +44,13 @@ class Skills extends Component {
             src={postgresLogo}
             alt="postgres"
           />
-          <img className="col s12 cssHtmlLogo" src={cssHtmlLogo} alt="HTML" />
+          <img
+            className="col s12 mongodbLogo"
+            src={mongodbLogo}
+            alt="MongoDB"
+          />
+          <img className="col s12 vscodeLogo" src={vscodeLogo} alt="vscode" />
           <img className="col s12 gitLogo" src={gitLogo} alt="git" />
-          <img className="col s12 githubLogo" src={githubLogo} alt="github" />
         </div>
       </div>
     );

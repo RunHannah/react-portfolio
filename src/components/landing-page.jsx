@@ -65,7 +65,9 @@ class LandingPage extends Component {
             <p>
               Becoming a developer has changed how I interact with technology
               and how I experience my daily life. I'm ready to leverage my
-              skills to help find solutions and improve user experiences. I'm actively seeking opportunities in Portland, OR, Los Angeles, or San Francisco!
+              skills to help find solutions and improve user experiences. I'm
+              actively seeking opportunities in Portland, OR, Los Angeles, or
+              San Francisco!
             </p>
           </div>
         </div>

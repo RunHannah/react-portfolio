@@ -4,7 +4,6 @@ class Footer extends Component {
   render() {
     return (
       <div className="center-align social-links footer">
-        <hr />
         {/* Resume Google Drive */}
         <a
           href="https://drive.google.com/file/d/1mVvRys0HxEZzQ_tXj2ngdpSK8Qwa4HC1/view?usp=sharing"
