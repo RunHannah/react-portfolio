@@ -1,6 +1,30 @@
 import React, { Component } from "react";
 
 class NavBar extends Component {
+  handleScroll(event) {
+    if (event === "projects") {
+      window.scroll({
+        top: 500,
+        behavior: "smooth"
+      });
+    } else if (event === "skills") {
+      window.scroll({
+        top: 2100,
+        behavior: "smooth"
+      });
+    } else if (event === "about") {
+      window.scroll({
+        top: 0,
+        behavior: "smooth"
+      });
+    } else if (event === "contact") {
+      window.scroll({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  }
+
   render() {
     return (
       <nav className="navbar">
@@ -10,22 +34,38 @@ class NavBar extends Component {
           </a>
           <ul className="right hide-on-sm-and-down">
             <li>
-              <a className="nav-text" href="#work">
+              <a
+                className="nav-text"
+                // href="#projects"
+                onClick={e => this.handleScroll("projects")}
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a className="nav-text" href="#about">
+              <a
+                className="nav-text"
+                // href="#skills"
+                onClick={e => this.handleScroll("skills")}
+              >
                 Skills
               </a>
             </li>
             <li>
-              <a className="nav-text" href="#skills">
+              <a
+                className="nav-text"
+                // href="#about"
+                onClick={e => this.handleScroll("about")}
+              >
                 About
               </a>
             </li>
             <li>
-              <a className="nav-text" href="#contact">
+              <a
+                className="nav-text"
+                // href="#contact"
+                onClick={e => this.handleScroll("contact")}
+              >
                 Contact
               </a>
             </li>
