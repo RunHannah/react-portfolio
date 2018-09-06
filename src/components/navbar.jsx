@@ -2,24 +2,29 @@ import React, { Component } from "react";
 
 class NavBar extends Component {
   handleScroll(event) {
-    if (event === "projects") {
+    if (event === "home") {
       window.scroll({
-        top: 500,
+        top: 0,
+        behavior: "smooth"
+      });
+    } else if (event === "projects") {
+      window.scroll({
+        top: 525,
         behavior: "smooth"
       });
     } else if (event === "skills") {
       window.scroll({
-        top: 2100,
+        top: 2200,
         behavior: "smooth"
       });
     } else if (event === "about") {
       window.scroll({
-        top: 0,
+        top: 2900,
         behavior: "smooth"
       });
     } else if (event === "contact") {
       window.scroll({
-        top: 0,
+        top: 2900,
         behavior: "smooth"
       });
     }
@@ -33,6 +38,15 @@ class NavBar extends Component {
             {/* Hannah Lee */}
           </a>
           <ul className="right hide-on-sm-and-down">
+            <li>
+              <a
+                className="nav-text"
+                // href="#home"
+                onClick={e => this.handleScroll("home")}
+              >
+                Home
+              </a>
+            </li>
             <li>
               <a
                 className="nav-text"

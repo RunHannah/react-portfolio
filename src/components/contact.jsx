@@ -1,40 +1,78 @@
-// import React, { Component } from "react";
+import React, { Component } from "react";
+import Profile from "../assets/images/profile.jpg";
 
-// class Contact extends Component {
-//   render() {
-//     return (
-//       <div class="row">
-//         <div class="col s3">
-//           <h2>Hannah Lee</h2>
-//           <img
-//             src="https://thumbs.dreamstime.com/b/asian-chinese-woman-flat-vector-design-style-can-be-used-profile-avatar-illustration-79782777.jpg"
-//             alt="avatar"
-//             style={{ height: "250px" }}
-//           />
-//           <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-//             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-//             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-//             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-//             aliquip ex ea commodo consequat. Duis aute irure dolor in
-//             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-//             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-//             culpa qui officia deserunt mollit anim id est laborum.
-//           </p>
-//         </div>
+class Contact extends Component {
+  render() {
+    return (
+      <div className="contact">
+        <div className="row">
+          <div className="col s12 m8">
+            {/* <div className="row"> */}
+            <h2 style={{ fontWeight: "bolder" }}>About</h2>
+            <hr />
+            {/* <img
+              src={Profile}
+              alt="profile"
+              style={{ height: "200px", borderRadius: "50%" }}
+            /> */}
+            {/* </div> */}
+            {/* <ul style={{ width: "75%", margin: "auto", paddingTop: "1em" }}> */}
+            <p>
+              Previously I worked in the public sector for a little over eight
+              years as a budget analyst where I formulated, executed, and
+              defended budgets to support public policy and programs at the
+              federal and county levels.
+            </p>
 
-//         <div class="col s9">
-//           <h2>Contact Me</h2>
-//           <hr />
+            <div className="row">
+              <div className="col s12 m2">
+                <p style={{ fontWeight: "bolder" }}>Education</p>
+              </div>
+              <div className="col s12 m9">
+                <p>Epicodus, Software Development Certificate</p>
+                <p>
+                  The George Washington University, M.A., Public Administration,
+                  Budget and Public Finance
+                </p>
+                <p>
+                  University of California, Santa Barbara, B.A. Political
+                  Science, International Relations
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col s12 m2">
+                <p style={{ fontWeight: "bolder" }}>Interests</p>
+              </div>
+              <div className="col s12 m9">
+                <p>
+                  In my free time I enjoy volunteering, running, playing tennis,
+                  art/music/media, attending tech meetups and building my coding
+                  skills!
+                </p>
+              </div>
+            </div>
+            {/* </ul> */}
+          </div>
 
-//           <div className="contact-list">
-//             <i className="fa fa-linkedin-square" aria-hidden="true" />
-//             <i className="fa fa-envelope-square" aria-hidden="true" />
-//             yourname@gmail.com
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
+          <div className="col s12 m4">
+            <h2 style={{ fontWeight: "bolder" }}>Contact Me</h2>
+            <hr />
+            <div className="contact-list">
+              <p>
+                <i className="fab fa-linkedin" aria-hidden="true" />
+                https://linkedin.com/in/hannahlee1
+              </p>
+              <p>
+                <i className="far fa-envelope" aria-hidden="true" />
+                leexhannah@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
-// export default Contact;
+export default Contact;
