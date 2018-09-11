@@ -1,6 +1,7 @@
 import NPS from "../images/projects/nps.png";
 import PDXBNB from "../images/projects/pdxbnb.png";
 import Coffee from "../images/projects/coffee.png";
+import Nyt from "../images/projects/nyt.png";
 
 export default [
   {
@@ -34,7 +35,7 @@ export default [
     name: "NYT-Books",
     info:
       "List of New York Times (NYT) Best Seller Books. Built with React, NYT API and Axios",
-    img: NYT,
+    img: Nyt,
     alt: "nyt",
     githubLink: "https://github.com/RunHannah/react-nyt-books",
     liveLink: "https://github.com/RunHannah/react-nyt-books"
