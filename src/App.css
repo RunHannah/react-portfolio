@@ -86,6 +86,11 @@
   text-align: center;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Skills */
 .skills {
   text-align: center;

@@ -14,7 +14,7 @@ class NavBar extends Component {
       });
     } else if (event === "skills") {
       window.scroll({
-        top: 2200,
+        top: 2300,
         behavior: "smooth"
       });
     } else if (event === "about") {
