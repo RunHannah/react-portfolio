@@ -29,5 +29,14 @@ export default [
     alt: "coffee",
     githubLink: "https://github.com/RunHannah/epic_coffee",
     liveLink: "https://github.com/RunHannah/epic_coffee"
+  },
+  {
+    name: "NYT-Books",
+    info:
+      "List of New York Times (NYT) Best Seller Books. Built with React, NYT API and Axios",
+    img: NYT,
+    alt: "nyt",
+    githubLink: "https://github.com/RunHannah/react-nyt-books",
+    liveLink: "https://github.com/RunHannah/react-nyt-books"
   }
 ];
