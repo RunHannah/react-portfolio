@@ -8,23 +8,19 @@ class NavBar extends Component {
         behavior: "smooth"
       });
     } else if (event === "projects") {
-      window.scroll({
-        top: 525,
+      document.querySelector(".project-list").scrollIntoView({
         behavior: "smooth"
       });
     } else if (event === "skills") {
-      window.scroll({
-        top: 2300,
+      document.querySelector(".tech-skills").scrollIntoView({
         behavior: "smooth"
       });
     } else if (event === "about") {
-      window.scroll({
-        top: 2900,
+      document.querySelector(".about").scrollIntoView({
         behavior: "smooth"
       });
     } else if (event === "contact") {
-      window.scroll({
-        top: 2900,
+      document.querySelector(".contact-me").scrollIntoView({
         behavior: "smooth"
       });
     }

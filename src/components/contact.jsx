@@ -8,7 +8,7 @@ class Contact extends Component {
         <div className="row">
           <div className="col s12 m8">
             {/* <div className="row"> */}
-            <h2 style={{ fontWeight: "bolder" }}>About</h2>
+            <h2 className="about">About</h2>
             <hr />
             {/* <img
               src={Profile}
@@ -56,7 +56,7 @@ class Contact extends Component {
           </div>
 
           <div className="col s12 m4">
-            <h2 style={{ fontWeight: "bolder" }}>Contact Me</h2>
+            <h2 className="contact-me">Contact Me</h2>
             <hr />
             <div className="contact-list">
               <p>

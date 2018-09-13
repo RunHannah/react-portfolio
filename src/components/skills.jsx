@@ -18,7 +18,7 @@ class Skills extends Component {
       <div className="skills container">
         <p className="tech-skills">Technical Skills</p>
         <hr />
-        <div className="row wrapper">
+        <div className="row wrapper tech-images">
           <img className="col s12 reactLogo" src={reactLogo} alt="React" />
           <img
             className="col s12 javascriptLogo"

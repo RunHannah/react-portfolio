@@ -112,12 +112,23 @@
   padding-top: 15px;
 }
 
+/* About */
+.about {
+  font-weight: bolder;
+  font-size: 3em;
+}
+
 /* Contact */
 .contact {
   display: block;
   padding: 15px;
   padding-bottom: 50px;
   font-size: 18px;
+}
+
+.contact-me {
+  font-weight: bolder;
+  font-size: 3em;
 }
 
 .contact-list i {
@@ -152,4 +163,52 @@
   width: 100%;
   margin: auto;
   padding-bottom: 5px;
+}
+
+/* Desktops and laptops ----------- */
+/* @media only screen and (min-width: 901px) {
+  .tech-images {
+    width: 100%;
+    max-width: 90%;
+  }
+} */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 651px) and (max-width: 900px) {
+  .landing-intro,
+  .project-list,
+  .tech-skills,
+  .about,
+  .contact-me {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .tech-images {
+    width: 100%;
+    max-width: 70%;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 650px) {
+  .landing-intro,
+  .project-list,
+  .tech-skills,
+  .about,
+  .contact-me {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .tech-images {
+    width: 100%;
+    max-width: 40%;
+  }
 }
