@@ -2,6 +2,8 @@
 
 ### Hi, I'm Hannah! Software Developer ready to collaborate and build great products.
 
+### Visit: https://runhannah.github.io/react-portfolio/
+
 I'm an enthusiastic lifelong learner who transitioned from a
 career in public policy and budget analysis to software
 development to solve problems through technology. I value
@@ -16,12 +18,14 @@ and practice strong interpersonal skills.
 
 Becoming a developer has changed how I interact with technology
 and how I experience my daily life. I'm ready to leverage my
-skills to help find solutions and improve user experiences. I'm actively seeking opportunities in Portland, OR, Los Angeles, or San Francisco!
+skills to help find solutions and improve user experiences.
 
+I'm actively seeking Front-End opportunities in Portland, OR, Los Angeles, or San Francisco!
 
 #### License
 
 ### Licensed under MIT license
--------
+
+---
 
 GNU GPL v2. Copyright 2018 **Hannah Lee**

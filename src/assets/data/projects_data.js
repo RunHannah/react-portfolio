@@ -34,7 +34,7 @@ export default [
   {
     name: "NYT-Books",
     info:
-      "See the New York Times' best selling books for the week!. Built with React, NYT API, and form and submit functionality.",
+      "See the New York Times' best selling books for the week! Built with React, NYT API, and form and submit functionality.",
     img: Nyt,
     alt: "nyt",
     githubLink: "https://github.com/RunHannah/react-nyt-books",
