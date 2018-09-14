@@ -34,10 +34,10 @@ export default [
   {
     name: "NYT-Books",
     info:
-      "List of New York Times (NYT) Best Seller Books. Built with React, NYT API and Axios.",
+      "See the New York Times' best selling books for the week!. Built with React, NYT API, and form and submit functionality.",
     img: Nyt,
     alt: "nyt",
     githubLink: "https://github.com/RunHannah/react-nyt-books",
-    liveLink: "https://github.com/RunHannah/react-nyt-books"
+    liveLink: "https://runhannah.github.io/react-nyt-books/"
   }
 ];
