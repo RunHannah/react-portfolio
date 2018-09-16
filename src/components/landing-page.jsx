@@ -6,7 +6,7 @@ class LandingPage extends Component {
       <div className="landing-grid">
         <div className="row">
           <div className="col s12 m4">
-            <p className="landing-intro">Hannah Lee</p>
+            <p className="landing-intro">HANNAH LEE</p>
             <p>
               Software Developer ready to collaborate and build great products.
             </p>

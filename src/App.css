@@ -1,26 +1,25 @@
 /* Application Wide */
 .app {
   color: grey;
-  font-family: "Quicksand", sans-serif;
-  /* background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ccdbaaf7bb352c17aaf967cf09c1285c&auto=format&fit=crop&w=668&q=80"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
 }
 
 /* NavBar */
 .navbar {
   position: fixed;
   z-index: 1;
-  background: #5d4157; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #a8caba,
-    #5d4157
+    #434343,
+    #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #a8caba,
-    #5d4157
+    #434343,
+    #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -38,7 +37,7 @@
 }
 
 .landing-intro {
-  /* font-family: "Merriweather Sans", sans-serif; */
+  font-family: "Raleway", sans-serif;
   font-size: 3em;
   font-weight: bolder;
 }
@@ -62,15 +61,13 @@
 }
 
 .project-list {
-  /* font-family: "Poller One", cursive; */
   font-size: 3em;
   text-align: center;
   font-weight: bolder;
 }
 
-.card-image {
-  width: 100%;
-  height: 100%;
+.card {
+  height: 50%;
 }
 
 .card .card-content {
@@ -98,7 +95,6 @@
 }
 
 .tech-skills {
-  /* font-family: "Poller One", cursive; */
   font-size: 3em;
   font-weight: bolder;
 }
@@ -139,16 +135,16 @@
 
 .footer {
   color: white;
-  background: #5d4157; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #a8caba,
-    #5d4157
+    #434343,
+    #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #a8caba,
-    #5d4157
+    #434343,
+    #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

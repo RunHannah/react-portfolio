@@ -16,7 +16,7 @@ class Projects extends Component {
         <div className="row flex">
           {projects.map((project, index) => (
             <div className="col m6" key={index}>
-              <div className="card" key={index}>
+              <div className="card large" key={index}>
                 <div className="card-image">
                   <img src={project.img} />
                 </div>
