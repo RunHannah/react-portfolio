@@ -55,7 +55,7 @@ class Contact extends Component {
             {/* </ul> */}
           </div>
 
-          <div className="col s12 m4">
+          <div className="col s12 m4 contact-div">
             <h2 className="contact-me">Contact Me</h2>
             <hr />
             <div className="contact-list">

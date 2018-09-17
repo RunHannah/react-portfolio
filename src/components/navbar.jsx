@@ -9,19 +9,23 @@ class NavBar extends Component {
       });
     } else if (event === "projects") {
       document.querySelector(".project-list").scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
+        block: "start"
       });
     } else if (event === "skills") {
-      document.querySelector(".tech-skills").scrollIntoView({
-        behavior: "smooth"
+      document.querySelector(".skills").scrollIntoView({
+        behavior: "smooth",
+        inline: "start"
       });
     } else if (event === "about") {
       document.querySelector(".about").scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
+        inline: "start"
       });
     } else if (event === "contact") {
-      document.querySelector(".contact-me").scrollIntoView({
-        behavior: "smooth"
+      document.querySelector(".contact-div").scrollIntoView({
+        behavior: "smooth",
+        inline: "start"
       });
     }
   }
