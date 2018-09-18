@@ -66,21 +66,12 @@
   font-weight: bolder;
 }
 
-.card {
-  height: 50%;
-}
-
 .card .card-title {
   font-weight: bold;
 }
 
 .card .card-action {
   text-align: center;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* Skills */

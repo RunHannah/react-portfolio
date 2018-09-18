@@ -13,7 +13,7 @@ class Projects extends Component {
       <div className="projects container">
         <p className="project-list">Projects</p>
         <hr />
-        <div className="row flex">
+        <div className="row">
           {projects.map((project, index) => (
             <div className="col m6" key={index}>
               <div className="card large" key={index}>
