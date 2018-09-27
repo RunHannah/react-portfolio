@@ -2,6 +2,7 @@ import NPS from "../images/projects/nps.png";
 import PDXBNB from "../images/projects/pdxbnb.png";
 import Coffee from "../images/projects/coffee.png";
 import Nyt from "../images/projects/nyt.png";
+import Unsplash from "../images/projects/unsplash.png";
 
 export default [
   {
@@ -32,12 +33,21 @@ export default [
     liveLink: "https://github.com/RunHannah/epic_coffee"
   },
   {
-    name: "NYT-Books",
+    name: "NYT Best Seller Books",
     info:
       "See the New York Times' best selling books for the week! Built with React, NYT API, and form and submit functionality.",
     img: Nyt,
     alt: "nyt",
     githubLink: "https://github.com/RunHannah/react-nyt-books",
     liveLink: "https://runhannah.github.io/react-nyt-books/"
+  },
+  {
+    name: "Unsplash",
+    info:
+      "Returns a collection of photos and responds in changes to screen width. Built with React and Unsplash API. Implements CSS Flex and Grid, and React Router",
+    img: Unsplash,
+    alt: "unsplash",
+    githubLink: "https://github.com/RunHannah/react-unsplash",
+    liveLink: "https://runhannah.github.io/react-unsplash/"
   }
 ];

@@ -8,7 +8,8 @@ class LandingPage extends Component {
           <div className="col s12 m4">
             <p className="landing-intro">HANNAH LEE</p>
             <p>
-              Software Developer ready to collaborate and build great products.
+              Software Developer with a Front-End focus ready to collaborate and
+              build great products.
             </p>
             <div className="center-align social-links-intro">
               {/* Resume */}
@@ -63,11 +64,10 @@ class LandingPage extends Component {
               and practice strong interpersonal skills.
             </p>
             <p>
-              Becoming a developer has changed how I interact with technology
-              and how I experience my daily life. I'm ready to leverage my
-              skills to help find solutions and improve user experiences. I'm
-              actively seeking opportunities in Portland, OR, Los Angeles, or
-              San Francisco!
+              Becoming a developer has changed how I interact with and
+              experience technology. I'm ready to leverage my skills to help
+              find solutions and improve user experiences. I'm actively seeking
+              opportunities in Portland, OR, Los Angeles, or San Francisco!
             </p>
           </div>
         </div>
