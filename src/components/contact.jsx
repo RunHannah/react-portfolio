@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Profile from "../assets/images/profile.jpg";
 
 class Contact extends Component {
   render() {
