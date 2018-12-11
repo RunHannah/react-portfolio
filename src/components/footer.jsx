@@ -5,9 +5,9 @@ class Footer extends Component {
     return (
       <div className="center-align social-links footer">
         {/* Resume Google Drive */}
-        <a href="" rel="noopener noreferrer" target="_blank">
+        {/* <a href="" rel="noopener noreferrer" target="_blank">
           <i className="fas fa-file-alt" aria-hidden="true" />
-        </a>
+        </a> */}
 
         {/* LinkedIn */}
         <a

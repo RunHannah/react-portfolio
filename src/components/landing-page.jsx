@@ -13,13 +13,13 @@ class LandingPage extends Component {
             </p>
             <div className="center-align social-links-intro">
               {/* Resume */}
-              <a
-                href="https://drive.google.com/file/d/1mVvRys0HxEZzQ_tXj2ngdpSK8Qwa4HC1/view?usp=sharing"
+              {/* <a
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fas fa-file-alt" aria-hidden="true" />
-              </a>
+              </a> */}
               {/* LinkedIn */}
               <a
                 href="https://linkedin.com/in/hannahlee1"

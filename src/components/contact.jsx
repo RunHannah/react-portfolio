@@ -9,13 +9,7 @@ class Contact extends Component {
             {/* <div className="row"> */}
             <h2 className="about">About</h2>
             <hr />
-            {/* <img
-              src={Profile}
-              alt="profile"
-              style={{ height: "200px", borderRadius: "50%" }}
-            /> */}
-            {/* </div> */}
-            {/* <ul style={{ width: "75%", margin: "auto", paddingTop: "1em" }}> */}
+
             <p>
               Previously I worked in the public sector for a little over eight
               years as a budget analyst where I formulated, executed, and
