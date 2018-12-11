@@ -5,11 +5,7 @@ class Footer extends Component {
     return (
       <div className="center-align social-links footer">
         {/* Resume Google Drive */}
-        <a
-          href="https://drive.google.com/file/d/1mVvRys0HxEZzQ_tXj2ngdpSK8Qwa4HC1/view?usp=sharing"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <a href="" rel="noopener noreferrer" target="_blank">
           <i className="fas fa-file-alt" aria-hidden="true" />
         </a>
 

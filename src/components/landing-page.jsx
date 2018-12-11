@@ -56,8 +56,7 @@ class LandingPage extends Component {
               is React, NodeJS, Express, and MongoDB, and have also built
               projects using Angular, Ruby on Rails, and Postgres. I'm to ready
               to collaborate on a team as a Front-End Engineer and actively
-              seeking opportunities in Portland, OR, Los Angeles, and San
-              Francisco!
+              seeking opportunities in Los Angeles.
             </p>
             <p>
               I value curiosity, effective communication, and a culture of
