@@ -1,19 +1,9 @@
-import NPS from "../images/projects/nps.png";
-import PDXBNB from "../images/projects/pdxbnb.png";
-import Coffee from "../images/projects/coffee.png";
-import Nyt from "../images/projects/nyt.png";
-import Unsplash from "../images/projects/unsplash.png";
+import NPS from "../images/projects/nps.jpeg";
+import PDXBNB from "../images/projects/pdxbnb.jpeg";
+import NYT from "../images/projects/nyt.jpeg";
+import Unsplash from "../images/projects/unsplash.jpeg";
 
 export default [
-  {
-    name: "National Park Service Website Clone",
-    info:
-      "This is a clone of the National Park Service website.  Built with Angular, Firebase, and National Park Service API.",
-    img: NPS,
-    alt: "NPS",
-    githubLink: "https://github.com/RunHannah/nps",
-    liveLink: "https://national-park-service-clone.firebaseapp.com/"
-  },
   {
     name: "PDXbnb",
     info:
@@ -24,19 +14,19 @@ export default [
     liveLink: "https://pdxbnb-76f3c.firebaseapp.com/"
   },
   {
-    name: "Epic-Coffee",
+    name: "National Park Service Website Clone",
     info:
-      "Application demonstrating CRUD functionality. Built with Ruby on Rails, PostgreSQL, and Faker gem. View, add, update, delete coffee blends and reviews.",
-    img: Coffee,
-    alt: "coffee",
-    githubLink: "https://github.com/RunHannah/epic_coffee",
-    liveLink: "https://github.com/RunHannah/epic_coffee"
+      "This is a clone of the National Park Service website.  Built with Angular, Firebase, and National Park Service API.",
+    img: NPS,
+    alt: "NPS",
+    githubLink: "https://github.com/RunHannah/nps",
+    liveLink: "https://national-park-service-clone.firebaseapp.com/"
   },
   {
     name: "NYT Best Seller Books",
     info:
       "See the New York Times' best selling books for the week! Built with React, NYT API, and form and submit functionality.",
-    img: Nyt,
+    img: NYT,
     alt: "nyt",
     githubLink: "https://github.com/RunHannah/react-nyt-books",
     liveLink: "https://runhannah.github.io/react-nyt-books/"

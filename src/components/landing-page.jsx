@@ -67,8 +67,7 @@ class LandingPage extends Component {
             </p>
             <p>
               Becoming a developer has changed how I interact with and
-              experience technology. I'm ready to leverage my skills to help
-              find solutions, improve user experiences, build solid products and
+              experience technology. Curious by nature, I truly enjoy learning how things work and ready to leverage my skills to help find solutions, improve user experiences, build solid products and
               reach shared goals.
             </p>
           </div>

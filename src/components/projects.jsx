@@ -25,8 +25,12 @@ class Projects extends Component {
                   <p>{project.info}</p>
                 </div>
                 <div className="card-action">
-                  <a href={project.githubLink}>Github</a>
-                  <a href={project.liveLink}>Live Demo</a>
+                  <a target="_blank" href={project.githubLink}>
+                    Github
+                  </a>
+                  <a target="_blank" href={project.liveLink}>
+                    Live Demo
+                  </a>
                 </div>
               </div>
             </div>
