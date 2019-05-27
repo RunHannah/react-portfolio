@@ -1,7 +1,7 @@
 /* Application Wide */
 .app {
   color: grey;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   letter-spacing: 0.0625em;
 }
@@ -33,17 +33,28 @@
   padding: 15px;
   padding-top: 150px;
   padding-bottom: 100px;
-  font-size: 18px;
+  /* font-size: 18px; */
+  background: url('https://images.unsplash.com/photo-1546821323-eaf9b5724230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80')
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
 }
 
 .landing-intro {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
   font-weight: bolder;
 }
 
+.landing-intro-text {
+  font-size: 1.5em;
+}
+
 .social-links-intro i {
-  color: grey;
+  color: black;
   font-size: 2em;
   padding-right: 15px;
   float: left;

@@ -1,14 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
     return (
       <div className="center-align social-links footer">
-        {/* Resume Google Drive */}
-        {/* <a href="" rel="noopener noreferrer" target="_blank">
-          <i className="fas fa-file-alt" aria-hidden="true" />
-        </a> */}
-
         {/* LinkedIn */}
         <a
           href="https://linkedin.com/in/hannahlee1"
@@ -35,9 +30,6 @@ class Footer extends Component {
         >
           <i className="fab fa-twitter" aria-hidden="true" />
         </a>
-        <div>
-          <p>This website was built with React and Materialize CSS.</p>
-        </div>
       </div>
     );
   }

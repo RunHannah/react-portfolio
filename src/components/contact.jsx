@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Contact extends Component {
   render() {
@@ -9,17 +9,19 @@ class Contact extends Component {
             {/* <div className="row"> */}
             <h2 className="about">About</h2>
             <hr />
-
             <p>
-              Previously I worked in the public sector for a little over eight
-              years as a budget analyst where I formulated, executed, and
-              defended budgets to support public policy and programs at the
-              federal and county levels.
+              Curiosity and the ability to work on interesting ideas and
+              problems prompted me to pursue a career in software development
+              after 8 years in budget and policy analysis. I’m passionate about
+              technology, data, and combining them to create helpful tools and
+              solutions. A natural self-starter who takes initiative and learns
+              quickly, I’m highly organized and efficient with a strong
+              attention to detail, and excited to join a collaborative team.
             </p>
 
             <div className="row">
               <div className="col s12 m2">
-                <p style={{ fontWeight: "bolder" }}>Education</p>
+                <p style={{ fontWeight: 'bolder' }}>Education</p>
               </div>
               <div className="col s12 m9">
                 <p>Epicodus, Software Development Certificate</p>
@@ -35,7 +37,7 @@ class Contact extends Component {
             </div>
             <div className="row">
               <div className="col s12 m2">
-                <p style={{ fontWeight: "bolder" }}>Interests</p>
+                <p style={{ fontWeight: 'bolder' }}>Interests</p>
               </div>
               <div className="col s12 m9">
                 <p>
