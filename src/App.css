@@ -51,7 +51,6 @@
 
 .landing-intro-text {
   font-size: 1.5em;
-  font-family: Helvetica;
 }
 
 .social-links-intro i {
@@ -192,7 +191,10 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 650px) {
-  .landing-intro,
+  .landing-intro {
+    font-size: 2em;
+  }
+
   .project-list,
   .tech-skills,
   .about,
@@ -207,5 +209,11 @@
   .tech-images {
     width: 100%;
     max-width: 40%;
+  }
+  .landing-grid {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+    background-attachment: fixed;
   }
 }
