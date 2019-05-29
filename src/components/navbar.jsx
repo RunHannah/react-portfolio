@@ -1,31 +1,31 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class NavBar extends Component {
   handleScroll(event) {
-    if (event === "home") {
+    if (event === 'home') {
       window.scroll({
         top: 0,
-        behavior: "smooth"
+        behavior: 'smooth'
       });
-    } else if (event === "projects") {
-      document.querySelector(".project-list").scrollIntoView({
-        behavior: "smooth",
-        block: "start"
+    } else if (event === 'projects') {
+      document.querySelector('.project-list').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
       });
-    } else if (event === "skills") {
-      document.querySelector(".skills").scrollIntoView({
-        behavior: "smooth",
-        inline: "start"
+    } else if (event === 'skills') {
+      document.querySelector('.skills').scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
       });
-    } else if (event === "about") {
-      document.querySelector(".about").scrollIntoView({
-        behavior: "smooth",
-        inline: "start"
+    } else if (event === 'about') {
+      document.querySelector('.about').scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
       });
-    } else if (event === "contact") {
-      document.querySelector(".contact-div").scrollIntoView({
-        behavior: "smooth",
-        inline: "start"
+    } else if (event === 'contact') {
+      document.querySelector('.contact-div').scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
       });
     }
   }
@@ -34,24 +34,17 @@ class NavBar extends Component {
     return (
       <nav className="navbar">
         <div className="nav-wrapper">
-          <a className="nav-text-name" href="#">
-            {/* Hannah Lee */}
-          </a>
+          <a className="nav-text-name">{/* Hannah Lee */}</a>
           <ul className="right hide-on-sm-and-down">
             <li>
-              <a
-                className="nav-text"
-                // href="#home"
-                onClick={e => this.handleScroll("home")}
-              >
+              <a className="nav-text" onClick={e => this.handleScroll('home')}>
                 Home
               </a>
             </li>
             <li>
               <a
                 className="nav-text"
-                // href="#projects"
-                onClick={e => this.handleScroll("projects")}
+                onClick={e => this.handleScroll('projects')}
               >
                 Projects
               </a>
@@ -59,26 +52,20 @@ class NavBar extends Component {
             <li>
               <a
                 className="nav-text"
-                // href="#skills"
-                onClick={e => this.handleScroll("skills")}
+                onClick={e => this.handleScroll('skills')}
               >
                 Skills
               </a>
             </li>
             <li>
-              <a
-                className="nav-text"
-                // href="#about"
-                onClick={e => this.handleScroll("about")}
-              >
+              <a className="nav-text" onClick={e => this.handleScroll('about')}>
                 About
               </a>
             </li>
             <li>
               <a
                 className="nav-text"
-                // href="#contact"
-                onClick={e => this.handleScroll("contact")}
+                onClick={e => this.handleScroll('contact')}
               >
                 Contact
               </a>

@@ -51,6 +51,7 @@
 
 .landing-intro-text {
   font-size: 1.5em;
+  font-family: Helvetica;
 }
 
 .social-links-intro i {
@@ -168,12 +169,15 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 651px) and (max-width: 900px) {
-  .landing-intro,
   .project-list,
   .tech-skills,
   .about,
   .contact-me {
     font-size: 2em;
+  }
+
+  .landing-intro {
+    font-size: 3em;
   }
 
   p {
