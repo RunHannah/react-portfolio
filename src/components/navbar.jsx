@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
 
 class NavBar extends Component {
+  state = {
+    navNames: ['Home', 'Projects', 'Skills', 'About', 'Contact']
+  };
+
   handleScroll(event) {
-    if (event === 'home') {
+    if (event === 'Home') {
       window.scroll({
         top: 0,
         behavior: 'smooth'
       });
-    } else if (event === 'projects') {
+    } else if (event === 'Projects') {
       document.querySelector('.project-list').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
       });
-    } else if (event === 'skills') {
+    } else if (event === 'Skills') {
       document.querySelector('.skills').scrollIntoView({
         behavior: 'smooth',
         inline: 'start'
       });
-    } else if (event === 'about') {
+    } else if (event === 'About') {
       document.querySelector('.about').scrollIntoView({
         behavior: 'smooth',
         inline: 'start'
       });
-    } else if (event === 'contact') {
+    } else if (event === 'Contact') {
       document.querySelector('.contact-div').scrollIntoView({
         behavior: 'smooth',
         inline: 'start'
@@ -31,47 +35,18 @@ class NavBar extends Component {
   }
 
   render() {
+    const { navNames } = this.state;
     return (
       <nav className="navbar">
-        <div className="nav-wrapper">
-          <a className="nav-text-name">{/* Hannah Lee */}</a>
-          <ul className="right hide-on-sm-and-down">
-            <li>
-              <a className="nav-text" onClick={e => this.handleScroll('home')}>
-                Home
+        <ul>
+          {navNames.map((name, index) => (
+            <li key={index}>
+              <a className="nav-text" onClick={e => this.handleScroll(name)}>
+                {name}
               </a>
             </li>
-            <li>
-              <a
-                className="nav-text"
-                onClick={e => this.handleScroll('projects')}
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                className="nav-text"
-                onClick={e => this.handleScroll('skills')}
-              >
-                Skills
-              </a>
-            </li>
-            <li>
-              <a className="nav-text" onClick={e => this.handleScroll('about')}>
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                className="nav-text"
-                onClick={e => this.handleScroll('contact')}
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+          ))}
+        </ul>
       </nav>
     );
   }
