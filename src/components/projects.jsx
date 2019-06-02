@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ProjectsData from "../assets/data/projects_data";
+import React, { Component } from 'react';
+import ProjectsData from '../assets/data/projects_data';
 
 class Projects extends Component {
   state = {
@@ -13,29 +13,26 @@ class Projects extends Component {
       <div className="projects container">
         <p className="project-list">Projects</p>
         <hr />
-        <div className="row">
+
+        <article className="cards">
           {projects.map((project, index) => (
-            <div className="col m6" key={index}>
-              <div className="card large" key={index}>
-                <div className="card-image">
-                  <img src={project.img} />
-                </div>
-                <div className="card-content">
-                  <span className="card-title">{project.name}</span>
-                  <p>{project.info}</p>
-                </div>
-                <div className="card-action">
+            <div className="card" key={index}>
+              <img src={project.img} alt="project" />
+              <div className="text">
+                <p className="card-title">{project.name}</p>
+                <p>{project.info}</p>
+                <span className="links">
                   <a href={project.githubLink} target="_blank">
                     Github
                   </a>
                   <a href={project.liveLink} target="_blank">
                     Live Demo
                   </a>
-                </div>
+                </span>
               </div>
             </div>
           ))}
-        </div>
+        </article>
       </div>
     );
   }
