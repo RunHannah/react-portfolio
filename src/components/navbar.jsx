@@ -12,7 +12,7 @@ class NavBar extends Component {
         behavior: 'smooth'
       });
     } else if (event === 'Projects') {
-      document.querySelector('.project-list').scrollIntoView({
+      document.querySelector('.project-title').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
       });

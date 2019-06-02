@@ -1,7 +1,7 @@
 /* Application Wide */
 .app {
   color: grey;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway';
   font-weight: bold;
   letter-spacing: 0.0625em;
 }
@@ -39,9 +39,7 @@
 }
 
 .landing-intro {
-  font-family: 'Raleway', sans-serif;
   font-size: 3em;
-  font-weight: bolder;
 }
 
 .landing-intro-text {
@@ -64,7 +62,12 @@
 /* Projects */
 .projects {
   padding-bottom: 100px;
-  width: 80%;
+  /* width: 80%; */
+}
+
+.project-title {
+  text-align: center;
+  font-size: 3em;
 }
 
 .cards {
@@ -150,16 +153,6 @@
 .footer {
   color: white;
   background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .social-links i {
@@ -208,11 +201,16 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: start;
+  }
+
   .landing-intro {
     font-size: 2em;
   }
 
-  .project-list,
+  .project-title,
   .tech-skills,
   .about,
   .contact-me {
@@ -228,9 +226,7 @@
     max-width: 40%;
   }
   .landing-grid {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% top;
-    background-attachment: fixed;
+    width: 100%;
+    object-fit: scale-down;
   }
 }

@@ -10,9 +10,8 @@ class Projects extends Component {
     const projects = this.state.projects;
 
     return (
-      <div className="projects container">
-        <p className="project-list">Projects</p>
-        <hr />
+      <div className="projects">
+        <p className="project-title">Projects</p>
 
         <article className="cards">
           {projects.map((project, index) => (
