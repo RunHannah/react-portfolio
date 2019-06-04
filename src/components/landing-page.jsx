@@ -3,12 +3,15 @@ import React, { Component } from 'react';
 class LandingPage extends Component {
   render() {
     return (
-      <div className="landing-grid">
-        <div className="row">
-          <p className="landing-intro">HANNAH LEE</p>
+      <div className="top-container">
+        <div className="landing-grid">
+          <span className="name">
+            <p>Hi, my name is </p>
+            <h1 className="landing-intro">HANNAH LEE</h1>
+          </span>
           <p className="landing-intro-text">
-            Full Stack Developer specializing in JavaScript, React, Node.js,
-            Express, MongoDB, PostgreSQL, and problem solving.
+            I'm a Full Stack Developer specializing in JavaScript, React,
+            Node.js, Express, MongoDB, PostgreSQL, and problem solving.
           </p>
           {/* LinkedIn */}
           <a
