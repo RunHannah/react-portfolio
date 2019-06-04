@@ -2,6 +2,7 @@ import NPS from '../images/projects/nps.png';
 import PDXBNB from '../images/projects/pdxbnb.png';
 import NYT from '../images/projects/nyt.png';
 import Unsplash from '../images/projects/unsplash.png';
+import Weather from '../images/projects/weather.png';
 
 export default [
   {
@@ -39,5 +40,14 @@ export default [
     alt: 'unsplash',
     githubLink: 'https://github.com/RunHannah/react-unsplash',
     liveLink: 'https://runhannah.github.io/react-unsplash/'
+  },
+  {
+    name: 'Weather',
+    info:
+      'Returns weather and map results based on search input. Built with Node.js, Express, vanilla JavaScript, and DarkSky and Mapbox APIs.',
+    img: Weather,
+    alt: 'weather',
+    githubLink: 'https://github.com/RunHannah/nodejs-weather',
+    liveLink: 'https://rhweather.herokuapp.com/'
   }
 ];

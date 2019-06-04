@@ -1,8 +1,15 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 /* Application Wide */
 .app {
   color: black;
   font-family: 'Raleway';
-  font-weight: bold;
   letter-spacing: 0.0625em;
 }
 
@@ -67,7 +74,7 @@
 
 .project-title {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .cards {
@@ -111,8 +118,7 @@
 }
 
 .tech-skills {
-  font-size: 3em;
-  font-weight: bolder;
+  font-size: 2.5em;
 }
 
 .wrapper {
@@ -126,8 +132,7 @@
 
 /* About */
 .about {
-  font-weight: bolder;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 /* Contact */
@@ -139,8 +144,7 @@
 }
 
 .contact-me {
-  font-weight: bolder;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .contact-list i {
