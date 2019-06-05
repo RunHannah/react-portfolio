@@ -19,16 +19,23 @@ class Contact extends Component {
             </p>
 
             <div className="row">
-              <div className="col s12 m9">
+              <div className="col s12 m10 l10">
                 <p>EDUCATION</p>
-                <p>Epicodus, Software Development Certificate</p>
+
                 <p>
-                  The George Washington University, M.A., Public Administration,
-                  Budget and Public Finance
+                  <i className="fas fa-chevron-right" />
+                  Epicodus, Software Development Certificate
                 </p>
                 <p>
-                  University of California, Santa Barbara, B.A. Political
-                  Science, International Relations
+                  <i className="fas fa-chevron-right" />
+                  The George Washington University
+                  <br /> M.A. Public Administration, Budget and Public Finance
+                </p>
+                <p>
+                  <i className="fas fa-chevron-right" />
+                  University of California, Santa Barbara
+                  <br />
+                  B.A. Political Science, International Relations
                 </p>
               </div>
             </div>
@@ -44,7 +51,6 @@ class Contact extends Component {
                 </p>
               </div>
             </div>
-            {/* </ul> */}
           </div>
 
           <div className="col s12 m12 l5 contact-div">

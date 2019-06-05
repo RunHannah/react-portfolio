@@ -153,6 +153,13 @@ body {
   font-weight: 900;
 }
 
+.fa-chevron-right {
+  color: #00baba;
+  font-size: 12px;
+  font-weight: 900;
+  padding-right: 10px;
+}
+
 /* Contact */
 .contact {
   display: block;
@@ -166,7 +173,7 @@ body {
   font-weight: 900;
 }
 
-.contact-list {
+.contact-div .contact-list {
   padding-left: 0;
 }
 
