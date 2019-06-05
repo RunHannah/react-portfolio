@@ -11,7 +11,7 @@ class Projects extends Component {
 
     return (
       <div className="projects">
-        <p className="project-title">Projects</p>
+        <p className="project-title">PROJECTS</p>
 
         <article className="cards">
           {projects.map((project, index) => (
@@ -19,13 +19,13 @@ class Projects extends Component {
               <img src={project.img} alt="project" />
               <div className="text">
                 <p className="card-title">{project.name}</p>
-                <p>{project.info}</p>
+                <p className="project-info">{project.info}</p>
                 <span className="links">
                   <a href={project.githubLink} target="_blank">
-                    Github
+                    GITHUB
                   </a>
                   <a href={project.liveLink} target="_blank">
-                    Live Demo
+                    DEMO
                   </a>
                 </span>
               </div>

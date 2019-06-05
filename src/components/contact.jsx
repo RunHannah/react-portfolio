@@ -7,7 +7,7 @@ class Contact extends Component {
         <div className="row">
           <div className="col s12 m8">
             {/* <div className="row"> */}
-            <h2 className="about">About</h2>
+            <h2 className="about">ABOUT</h2>
             <hr />
             <p>
               Curiosity and the ability to work on interesting ideas and
@@ -21,7 +21,7 @@ class Contact extends Component {
 
             <div className="row">
               <div className="col s12 m2">
-                <p style={{ fontWeight: 'bolder' }}>Education</p>
+                <p>EDUCATION</p>
               </div>
               <div className="col s12 m9">
                 <p>Epicodus, Software Development Certificate</p>
@@ -37,7 +37,7 @@ class Contact extends Component {
             </div>
             <div className="row">
               <div className="col s12 m2">
-                <p style={{ fontWeight: 'bolder' }}>Interests</p>
+                <p>INTERESTS</p>
               </div>
               <div className="col s12 m9">
                 <p>
@@ -59,7 +59,7 @@ class Contact extends Component {
           </div>
 
           <div className="col s12 m4 contact-div">
-            <h2 className="contact-me">Contact Me</h2>
+            <h2 className="contact-me">CONTACT ME</h2>
             <hr />
             <div className="contact-list">
               <p>

@@ -16,7 +16,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills container">
-        <p className="tech-skills">Technical Skills</p>
+        <p className="tech-skills">TECHNICAL SKILLS</p>
         <div className="row wrapper tech-images">
           <img className="col s12 m12 l12" src={reactLogo} alt="React" />
           <img

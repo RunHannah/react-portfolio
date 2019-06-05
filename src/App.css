@@ -48,21 +48,22 @@ body {
 .name p {
   margin-right: 20px;
   color: #00baba;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 18px;
 }
 
 .landing-intro {
-  font-size: 4em;
+  font-size: 60px;
+  font-weight: 900;
 }
 
 .landing-intro-text {
-  font-size: 2em;
+  font-size: 25px;
 }
 
 .landing-grid a {
   color: black;
-  font-size: 3em;
+  font-size: 30px;
   padding-right: 30px;
 }
 
@@ -74,7 +75,8 @@ body {
 
 .project-title {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .cards {
@@ -87,15 +89,17 @@ body {
   flex: 0 0 500px;
   margin: 10px;
   border: 1px solid #ccc;
+  background-color: black;
+  height: 600px;
 }
 .card img {
-  /* max-width: 100%; */
   width: 100%;
-  /* height: 400px; */
+  height: auto;
   /* object-fit: scale-down; */
 }
 .card > .text {
   padding: 0 20px 20px;
+  color: white;
 }
 
 .card-title {
@@ -111,6 +115,19 @@ body {
   font-size: 18px;
 }
 
+.text > .links a {
+  color: #00baba;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 7px 15px 7px 15px;
+  border: solid 2px #00baba;
+  border-radius: 4px;
+}
+
+.project-info {
+  letter-spacing: 0.2em;
+}
+
 /* Skills */
 .skills {
   text-align: center;
@@ -118,7 +135,8 @@ body {
 }
 
 .tech-skills {
-  font-size: 2.5em;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .wrapper {
@@ -132,7 +150,8 @@ body {
 
 /* About */
 .about {
-  font-size: 2.5em;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 /* Contact */
@@ -140,11 +159,12 @@ body {
   display: block;
   padding: 15px;
   padding-bottom: 50px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contact-me {
-  font-size: 2.5em;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .contact-list i {
@@ -155,13 +175,13 @@ body {
 
 .footer {
   color: white;
-  background: #000000; /* fallback for old browsers */
+  background: #000000;
 }
 
 .social-links i {
   color: white;
-  font-size: 4em;
-  padding: 50px;
+  font-size: 50px;
+  padding: 40px;
 }
 
 .social-links {
