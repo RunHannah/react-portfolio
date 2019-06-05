@@ -95,7 +95,6 @@ body {
 .card img {
   width: 100%;
   height: auto;
-  /* object-fit: scale-down; */
 }
 .card > .text {
   padding: 0 20px 20px;
@@ -167,6 +166,10 @@ body {
   font-weight: 900;
 }
 
+.contact-list {
+  padding-left: 0;
+}
+
 .contact-list i {
   padding: 8px;
 }
@@ -192,27 +195,11 @@ body {
 }
 
 /* iPads (portrait and landscape) ----------- */
-/* @media only screen and (min-width: 651px) and (max-width: 900px) {
-  .project-list,
-  .tech-skills,
-  .about,
-  .contact-me {
-    font-size: 2em;
+@media only screen and (min-width: 651px) and (max-width: 1080px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
-
-  .landing-intro {
-    font-size: 3em;
-  }
-
-  p {
-    font-size: 1em;
-  }
-
-  .tech-images {
-    width: 100%;
-    max-width: 70%;
-  }
-} */
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 650px) {
@@ -256,7 +243,7 @@ body {
   /* technical skills */
 
   .tech-images {
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 1em;
   }
 
