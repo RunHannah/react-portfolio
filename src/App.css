@@ -94,7 +94,7 @@ body {
 }
 .card img {
   width: 100%;
-  height: auto;
+  height: 350px;
 }
 .card > .text {
   padding: 0 20px 20px;
@@ -103,6 +103,7 @@ body {
 
 .card-title {
   text-align: center;
+  margin-top: 10px;
 }
 
 .card .text > .links {
@@ -125,6 +126,7 @@ body {
 
 .project-info {
   letter-spacing: 0.2em;
+  height: 85px;
 }
 
 /* Skills */
@@ -191,14 +193,12 @@ body {
 .social-links i {
   color: white;
   font-size: 50px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .social-links {
-  justify-content: space-between;
   width: 100%;
   margin: auto;
-  padding-bottom: 5px;
 }
 
 /* iPads (portrait and landscape) ----------- */
