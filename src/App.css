@@ -110,7 +110,7 @@ body {
   height: 350px;
 }
 .card > .text {
-  padding: 0 20px 20px;
+  margin: 0 20px 20px;
   color: white;
 }
 
@@ -119,16 +119,16 @@ body {
   margin-top: 10px;
 }
 
-.card .text > .links {
+.card > .links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border: 0;
   padding: 10px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
-.text > .links a {
+.links a {
   color: #00baba;
   font-size: 12px;
   font-weight: 900;
@@ -262,17 +262,16 @@ body {
   /* projects */
 
   .card {
-    flex: 0 0 450px;
-    margin: 5px;
+    flex: auto;
+    margin: 10px;
     height: auto;
-    margin: 25px;
+    /* margin: 20px; */
   }
   .card img {
     width: 100%;
     height: auto;
   }
   .card > .text {
-    padding: 0 20px 10px;
     text-align: justify;
   }
 
@@ -281,8 +280,9 @@ body {
     font-weight: 900;
   }
 
-  .text > .links a {
+  .links a {
     font-size: 10px;
+    margin: 10px;
   }
 
   /* technical skills */
@@ -290,6 +290,12 @@ body {
   .tech-images {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 1em;
+  }
+
+  /* contact */
+
+  .contact-list p {
+    font-size: 14px;
   }
 
   /* footer */

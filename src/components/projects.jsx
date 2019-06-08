@@ -20,15 +20,15 @@ class Projects extends Component {
               <div className="text">
                 <p className="card-title">{project.name}</p>
                 <p className="project-info">{project.info}</p>
-                <span className="links">
-                  <a href={project.githubLink} target="_blank">
-                    GITHUB
-                  </a>
-                  <a href={project.liveLink} target="_blank">
-                    DEMO
-                  </a>
-                </span>
               </div>
+              <span className="links">
+                <a href={project.githubLink} target="_blank">
+                  GITHUB
+                </a>
+                <a href={project.liveLink} target="_blank">
+                  DEMO
+                </a>
+              </span>
             </div>
           ))}
         </article>
