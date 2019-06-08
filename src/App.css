@@ -30,6 +30,15 @@ body {
   font-size: 14px;
 }
 
+.nav-text:hover {
+  transition: 0.5s;
+  color: #00baba;
+}
+
+.navbar:hover .nav-text:not(:hover) {
+  opacity: 0.5;
+}
+
 /* LandingPage */
 .landing-grid {
   min-height: 500px;
