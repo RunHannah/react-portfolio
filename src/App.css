@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Application Wide */
+/************ Application Wide ************/
 .app {
   color: black;
   font-family: 'Raleway';
@@ -31,11 +31,11 @@ body {
 }
 
 .nav-text:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   color: #00baba;
 }
 
-.navbar:hover .nav-text:not(:hover) {
+.nav-text:hover .nav-text:not(:hover) {
   opacity: 0.5;
 }
 
@@ -61,6 +61,11 @@ body {
   font-size: 18px;
 }
 
+.role {
+  color: #00baba;
+  font-weight: 900;
+}
+
 .landing-intro {
   font-size: 60px;
   font-weight: 900;
@@ -79,7 +84,6 @@ body {
 /* Projects */
 .projects {
   padding-bottom: 100px;
-  /* width: 80%; */
 }
 
 .project-title {
@@ -210,14 +214,14 @@ body {
   margin: auto;
 }
 
-/* iPads (portrait and landscape) ----------- */
+/************ iPads (portrait and landscape) ************/
 @media only screen and (min-width: 651px) and (max-width: 1080px) {
   .wrapper {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/************ Smartphones (portrait and landscape) ************/
 @media only screen and (max-width: 650px) {
   .project-title,
   .tech-skills,
@@ -254,6 +258,31 @@ body {
   .landing-grid a {
     font-size: 2em;
     align-items: center;
+  }
+  /* projects */
+
+  .card {
+    flex: 0 0 450px;
+    margin: 5px;
+    height: auto;
+    margin: 25px;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card > .text {
+    padding: 0 20px 10px;
+    text-align: justify;
+  }
+
+  .card .card-title {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .text > .links a {
+    font-size: 10px;
   }
 
   /* technical skills */

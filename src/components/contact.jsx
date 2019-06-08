@@ -45,9 +45,9 @@ class Contact extends Component {
                 <p>
                   In my free time I enjoy volunteering, running, playing tennis,
                   art/music/media, attending tech meetups and building my coding
-                  skills! Living in Los Angeles also means I have plenty of time
-                  to listen to my favorite podcasts such as Without Fail, How I
-                  Built This, Syntax, Asian Not Asian, Reply All, and The Cut.
+                  skills! Living in Los Angeles also provides me time to listen
+                  to my favorite podcasts such as IRL, Without Fail, How I Built
+                  This, Syntax, Asian Not Asian, Reply All, and The Cut.
                 </p>
               </div>
             </div>

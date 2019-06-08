@@ -10,8 +10,9 @@ class LandingPage extends Component {
             <h1 className="landing-intro">HANNAH LEE</h1>
           </span>
           <p className="landing-intro-text">
-            I'm a Full Stack Developer specializing in JavaScript, React,
-            Node.js, Express, MongoDB, PostgreSQL, and problem solving.
+            I'm a <span className="role">Full Stack Developer</span>{' '}
+            specializing in JavaScript, React, Node.js, Express, MongoDB,
+            PostgreSQL, and problem solving.
           </p>
           {/* LinkedIn */}
           <a
