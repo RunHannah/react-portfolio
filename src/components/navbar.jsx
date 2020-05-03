@@ -12,7 +12,7 @@ class NavBar extends Component {
         <ul>
           {navNames.map((name, index) => (
             <li key={index}>
-              <a href={`/#${name}`} className='nav-text'>
+              <a href={`/react-portfolio/#${name}`} className='nav-text'>
                 {name.toUpperCase()}
               </a>
             </li>
