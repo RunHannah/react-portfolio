@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.fac6dfaf.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.790b8d01.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.790b8d01.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.03d76dc7.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.03d76dc7.js.map",
+    "static/css/2.e315d21c.chunk.css": "/react-portfolio/static/css/2.e315d21c.chunk.css",
+    "static/js/2.877f1a21.chunk.js": "/react-portfolio/static/js/2.877f1a21.chunk.js",
+    "static/js/2.877f1a21.chunk.js.map": "/react-portfolio/static/js/2.877f1a21.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.cc0a569cb4efb4970bd909c5432bc5a7.js": "/react-portfolio/precache-manifest.cc0a569cb4efb4970bd909c5432bc5a7.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.e315d21c.chunk.css.map": "/react-portfolio/static/css/2.e315d21c.chunk.css.map",
+    "static/css/main.fac6dfaf.chunk.css.map": "/react-portfolio/static/css/main.fac6dfaf.chunk.css.map",
+    "static/js/2.877f1a21.chunk.js.LICENSE": "/react-portfolio/static/js/2.877f1a21.chunk.js.LICENSE",
+    "static/media/api-logo.png": "/react-portfolio/static/media/api-logo.56e64f3e.png",
+    "static/media/css-html-logo.png": "/react-portfolio/static/media/css-html-logo.028b7bd9.png",
+    "static/media/express-logo.png": "/react-portfolio/static/media/express-logo.02e77b1d.png",
+    "static/media/javascript-logo.png": "/react-portfolio/static/media/javascript-logo.d4001a69.png",
+    "static/media/nodejs-logo.png": "/react-portfolio/static/media/nodejs-logo.f8dab57d.png",
+    "static/media/nps.png": "/react-portfolio/static/media/nps.7fa5f0be.png",
+    "static/media/nyt.png": "/react-portfolio/static/media/nyt.b23b5b5b.png",
+    "static/media/pdxbnb.png": "/react-portfolio/static/media/pdxbnb.3a0b8030.png",
+    "static/media/postgres-logo.png": "/react-portfolio/static/media/postgres-logo.c11f4995.png",
+    "static/media/react-logo.png": "/react-portfolio/static/media/react-logo.8ab12c49.png",
+    "static/media/ruby-logo.png": "/react-portfolio/static/media/ruby-logo.9beaf80c.png",
+    "static/media/unsplash.png": "/react-portfolio/static/media/unsplash.94fb7202.png",
+    "static/media/vscode-logo.png": "/react-portfolio/static/media/vscode-logo.38e7207e.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.07e6cc2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03d76dc7.js",
+    "static/css/2.e315d21c.chunk.css",
+    "static/js/2.877f1a21.chunk.js",
+    "static/css/main.fac6dfaf.chunk.css",
+    "static/js/main.790b8d01.chunk.js"
+  ]
+}
