@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <div className="contact">
-        <div className="row">
-          <div className="col s12 m12 l7 about-div">
-            <h2 className="about">ABOUT</h2>
+      <div id='about' className='contact'>
+        <div className='row'>
+          <div className='col s12 m12 l7 about-div'>
+            <h2 className='about'>ABOUT</h2>
             <hr />
             <p>
               Curiosity and the ability to work on interesting ideas and
@@ -18,29 +18,29 @@ class Contact extends Component {
               attention to detail, and excited to join a collaborative team.
             </p>
 
-            <div className="row">
-              <div className="col s12 m10 l10">
+            <div className='row'>
+              <div className='col s12 m10 l10'>
                 <p>EDUCATION</p>
 
                 <p>
-                  <i className="fas fa-chevron-right" />
+                  <i className='fas fa-chevron-right' />
                   Epicodus, Software Development Certificate
                 </p>
                 <p>
-                  <i className="fas fa-chevron-right" />
+                  <i className='fas fa-chevron-right' />
                   The George Washington University
                   <br /> M.A. Public Administration, Budget and Public Finance
                 </p>
                 <p>
-                  <i className="fas fa-chevron-right" />
+                  <i className='fas fa-chevron-right' />
                   University of California, Santa Barbara
                   <br />
                   B.A. Political Science, International Relations
                 </p>
               </div>
             </div>
-            <div className="row">
-              <div className="col s12 m9">
+            <div className='row'>
+              <div className='col s12 m9'>
                 <p>INTERESTS</p>
                 <p>
                   In my free time I enjoy volunteering, running, playing tennis,
@@ -53,16 +53,16 @@ class Contact extends Component {
             </div>
           </div>
 
-          <div className="col s12 m12 l5 contact-div">
-            <h2 className="contact-me">CONTACT ME</h2>
+          <div id='contact' className='col s12 m12 l5 contact-div'>
+            <h2 className='contact-me'>CONTACT ME</h2>
             <hr />
-            <div className="col s12 m12 l12 contact-list">
+            <div className='col s12 m12 l12 contact-list'>
               <p>
-                <i className="fab fa-linkedin" aria-hidden="true" />
+                <i className='fab fa-linkedin' aria-hidden='true' />
                 https://linkedin.com/in/hannahlee1
               </p>
               <p>
-                <i className="far fa-envelope" aria-hidden="true" />
+                <i className='far fa-envelope' aria-hidden='true' />
                 leexhannah@gmail.com
               </p>
             </div>
