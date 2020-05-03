@@ -5,13 +5,6 @@ class NavBar extends Component {
     navNames: ['home', 'projects', 'skills', 'about', 'contact'],
   };
 
-  // handleScroll(name) {
-  //   document.getElementById(name).scrollIntoView({
-  //     behavior: 'smooth',
-  //     block: 'start',
-  //   });
-  // }
-
   render() {
     const { navNames } = this.state;
     return (

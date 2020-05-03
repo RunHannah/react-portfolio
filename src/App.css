@@ -50,7 +50,7 @@ body {
 .name {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: baseline;
 }
 
@@ -219,6 +219,11 @@ body {
   .wrapper {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
+
+  .navbar {
+    padding: unset;
+    justify-content: center;
+  }
 }
 
 /************ Smartphones (portrait and landscape) ************/
@@ -303,5 +308,11 @@ body {
   .social-links i {
     font-size: 2em;
     padding: 15px 25px 15px 25px;
+  }
+}
+
+@media (max-width: 418px) {
+  nav ul a {
+    padding: 0 8px;
   }
 }
