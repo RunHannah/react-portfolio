@@ -5,12 +5,12 @@ class NavBar extends Component {
     navNames: ['home', 'projects', 'skills', 'about', 'contact'],
   };
 
-  handleScroll(name) {
-    document.getElementById(name).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  }
+  // handleScroll(name) {
+  //   document.getElementById(name).scrollIntoView({
+  //     behavior: 'smooth',
+  //     block: 'start',
+  //   });
+  // }
 
   render() {
     const { navNames } = this.state;
@@ -19,7 +19,7 @@ class NavBar extends Component {
         <ul>
           {navNames.map((name, index) => (
             <li key={index}>
-              <a className='nav-text' onClick={() => this.handleScroll(name)}>
+              <a href={`/#${name}`} className='nav-text'>
                 {name.toUpperCase()}
               </a>
             </li>
